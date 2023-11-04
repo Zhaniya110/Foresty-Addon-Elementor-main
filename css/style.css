@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600;700&display=swap');
+
+.foresty-button {
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  transition: all 0.4s ease-in-out;
+  text-transform: capitalize;
+  padding: 15px 30px;
+  background-color: #4baf47;
+  border: 2px solid #4baf47;
+  color: white;
+  border-radius: 6px;
+ 
+}
+
+.foresty-button:hover {
+  color: #4baf47;
+  background-color: white;
+}
+
+.foresty-button:active {
+  color: #4baf47;
+}
+
+.foresty-button:focus {
+  color: #4baf47;
+}
