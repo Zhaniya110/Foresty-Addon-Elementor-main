@@ -28,3 +28,91 @@
 .foresty-button:focus {
   color: #4baf47;
 }
+
+/* Custom Slider Styles */
+.custom-slider {
+  position: relative;
+}
+
+.slick-slider {
+  width: 100%;
+}
+
+.slick-slide {
+  position: relative;
+}
+
+/* Custom Arrow Styles */
+.slick-prev,
+.slick-next {
+  width: 29px;
+  height: 29px;
+  background-color: transparent;
+  background-size: cover;
+  z-index: 1;
+}
+
+.slick-prev {
+  background-image: url('/images/arrow-prev.png');
+}
+
+.slick-next {
+  background-image: url('/images/arrow-next.png');
+}
+
+/* Slide Styles */
+.slick-slide img {
+  width: 100%;
+}
+
+.slick-slide .caption {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Slide Gradient Overlay */
+.slick-slide:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(rgba(217, 217, 217, 0), rgba(0, 0, 0, 0.56));
+  z-index: 2;
+}
+
+/* Dots Styles */
+.slick-dots {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.slick-dots li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.slick-dots button {
+  font-size: 0; /* Hide the default dot */
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.45);
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+
+.slick-dots .slick-active button {
+  background-color: #fff;
+}
+
